@@ -1,0 +1,14 @@
+int main() {
+    double  length, width, height, volume, surface_area;
+    printf("Emter a length:");
+    scanf("%lf", &length);
+    printf("Enter a width:");
+    scanf("%lf", &width);
+    printf("Enter a height:");
+    scanf("%lf", &height);
+    volume = width * length *height;
+    surface_area = 2 * (width * height + length * height + length * width );
+    printf("The volume is: %lf\n", volume);
+    printf("The surface area is: %lf", surface_area);
+    return 0;
+}
